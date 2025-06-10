@@ -68,7 +68,7 @@ Sum of Owners by Genre:
 
 #### Average % of Positive Reviews per Genre
 
-![Game Lifecycle Dashboard](plots/average_%_of_reviews.jpg)
+![Game Lifecycle Dashboard](plots/average_per_of_reviews.jpg)
 
 *Key Observations (Reviews):*
 

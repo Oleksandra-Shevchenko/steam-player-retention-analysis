@@ -16,35 +16,37 @@ This project investigates **player behavior on the Steam platform**, focusing on
 ### Business Question
 How do Steam games perform after launch? Understanding growth patterns, peak timing, and player drop-off rates helps identify what drives long-term success on the platform.
 
+#
 #### Market Landscape: Genre Distribution
 
 ![Game Lifecycle Dashboard](plots/distribution_by_genre.jpg)
 
 **Key Findings:**
 
-- *Action games dominate* with 668 titles (highest competition)
+- **Action games dominate** with 668 titles (highest competition)
 
-- *Adventure* (376) and *Indie* (364) represent significant but less saturated markets
+- **Adventure** (376) and **Indie** (364) represent significant but less saturated markets
 
-- *RPG* (253) and *Strategy* (209) maintain solid presence
+- **RPG** (253) and **Strategy** (209) maintain solid presence
 
-- *Niche genres* (MMO, Sports, Racing) serve specialized audiences
+- **Niche genres** (MMO, Sports, Racing) serve specialized audiences
 
-
+ <br/><br/>
 #### Distribution of Games by Price
 
 ![Game Lifecycle Dashboard](plots/distribution_by_price.jpg)
 
 **Key Findings:**
 
-- *Mid-range pricing dominates:* $10-29.99 represents 39.3% of games
+- **Mid-range pricing dominates:** $10-29.99 represents 39.3% of games
 
-- *Budget segment significant:* $0.01-9.99 accounts for 24.6%
+- **Budget segment significant:** $0.01-9.99 accounts for 24.6%
 
-- *Premium games present:* $30+ titles make up 16.9%
+- **Premium games present:** $30+ titles make up 16.9%
 
-- *Free-to-play notable:* 19.2% of games use F2P model
-
+- **Free-to-play notable:** 19.2% of games use F2P model
+  
+ <br/><br/>
 #### Game Ownership by Genre: Average vs. Total Market Share
 
 Understanding player distribution across genres requires examining both individual game success and total market presence. This dual analysis reveals genre popularity patterns and market concentration dynamics.
@@ -72,6 +74,7 @@ Understanding player distribution across genres requires examining both individu
 - **Different competitive environments:** Few MMO titles vs. hundreds of Action games
 - **Player concentration varies:** Action has massive potential reach; MMO has smaller but more engaged per-game audiences
 
+ <br/><br/>
 #### Player Satisfaction Analysis: Positive Review Rates by Genre
 
 ![Game Lifecycle Dashboard](plots/average_per_of_reviews.jpg)
@@ -92,6 +95,7 @@ Understanding player distribution across genres requires examining both individu
 - **Gradual decline pattern** visible from highest to lowest rated genres
 - **Competitive/online genres** consistently show lower satisfaction rates
 
+ <br/><br/>
 #### Player Engagement Patterns: Average vs. Median Playtime by Genre
 
 ![Game Lifecycle Dashboard](plots/average_median_playtime.jpg)
@@ -114,6 +118,7 @@ Understanding player distribution across genres requires examining both individu
 - **Most players engage briefly** regardless of genre, as shown by consistently low medians
 - **Genre design impacts engagement spread** - competitive genres show wider variance between average and median
 
+ <br/><br/>
 **Business Implications Summary**
 
 *Market Dynamics:*
@@ -130,7 +135,7 @@ Understanding player distribution across genres requires examining both individu
 
 **Key Takeaway:** Steam success requires genre-specific strategies. High-volume markets need differentiation; niche markets need deep engagement; all markets need realistic retention expectations based on typical (not average) player behavior.
 
-
+---
 
 
 

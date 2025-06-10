@@ -119,21 +119,22 @@ Understanding player distribution across genres requires examining both individu
 - **Genre design impacts engagement spread** - competitive genres show wider variance between average and median
 
  <br/><br/>
-**Business Implications Summary**
+### Business Implications Summary
 
-*Market Dynamics:*
-- Action games dominate by volume (668 titles) but face intense competition, while MMO games achieve highest individual success (8M average owners per game)
-- Player satisfaction varies significantly by genre - Indie/Simulation excel (87%+) while competitive genres struggle (MMO at 70%)
-- All genres show "whale effects" - small groups of dedicated players drive up engagement averages while most players engage briefly
+**Market Dynamics**
+- Action games dominate by volume (668 titles) but face intense competition, while MMO games achieve highest individual success (8M average owners per game). Player satisfaction varies significantly by genre - Indie/Simulation excel (87%+) while competitive genres face more critical audiences (MMO at 70%).
+All genres show "whale effects" where dedicated players drive up engagement averages while most players engage briefly. This creates misleading metrics - median playtime provides more realistic retention expectations than averages.
 
-*Strategic Insights:*
-- Genre choice is critical: Crowded markets (Action) vs. niche audiences (MMO/Simulation) require completely different approaches
+**Strategic Insights**
 
-- Success metrics matter: Median engagement often tells a different story than averages across all genres
+- **Genre choice is critical:** Crowded markets (Action) vs. niche audiences (MMO/Simulation) require completely different approaches to player acquisition and retention.
+- **Success metrics matter:** Focus on median engagement for realistic benchmarks while using averages to identify high-value player segments.
+- **Player expectations vary:** Competitive genres need different community management strategies than single-player experiences.
 
-- Player expectations vary: Competitive genres face more critical audiences than single-player experiences
+<br/>
 
-**Key Takeaway:** Steam success requires genre-specific strategies. High-volume markets need differentiation; niche markets need deep engagement; all markets need realistic retention expectations based on typical (not average) player behavior.
+**Key Takeaway:** 
+Steam success requires genre-specific strategies. High-volume markets need differentiation; niche markets need deep engagement; all markets need realistic retention expectations based on typical (not average) player behavior.
 
 ---
 

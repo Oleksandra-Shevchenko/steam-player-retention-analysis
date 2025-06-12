@@ -366,5 +366,43 @@ This scatterplot explores the relationship between **positive user reviews (%)**
 
 ---
 
-## Section 4 – Game Lifecycle & Market Segmentation
+## Section 4 – A/B Test: The Effect of Early Access on Player Retention
+
+
+### Business Question
+
+**Does launching in Early Access improve or reduce player retention?**  
+Early Access lets studios launch faster and gather feedback — but does it help keep players engaged, or does an unfinished experience drive them away?
+
+#
+
+### Hypotheses
+
+This A/B test is guided by several product-driven hypotheses:
+
+1. **Steady Audience Hypothesis**  
+   Games that go through Early Access may build **more stable long-term audiences** — as players are used to gradual updates and iteration.
+
+2. **Community-Polished Hypothesis**  
+   Early Access titles may receive **higher long-term review scores**, as player feedback helps polish the product before full release.
+
+3. **Engagement Spikes Hypothesis**  
+   Early Access games may show **periodic spikes in activity** during major patches or the official 1.0 launch — keeping engagement alive longer.
+
+4. **Hype vs. Drop Hypothesis**  
+   Fully released games may experience **a stronger initial launch peak**, but are at risk of **faster drop-off** if they lack ongoing content updates.
+
+
+### Methodology
+
+To test this, I ran a simplified A/B test:
+
+- **Test group:** 98 games with the `Early Access` tag  
+- **Control group:** 98 randomly selected games without the tag  
+- Both groups were balanced by size and analyzed by key engagement metrics:
+  - **Median Playtime** (to reduce outlier bias)
+  - **User Review Score**
+  - **Ownership scale**
+
+This approach enables a focused comparison of real-world player behavior between two common release strategies.
 

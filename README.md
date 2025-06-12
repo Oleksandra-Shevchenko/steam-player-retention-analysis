@@ -246,10 +246,124 @@ Games don’t need explosive launches to succeed — slow, steady growth powered
 
 
 
+### Business Question 2: First-Year Retention After Release
 
+**How do games perform in the first 12 months after launch — and how quickly does interest fade?**  
+This helps game studios understand when engagement drops off, how quickly a player base stabilizes, and whether post-launch retention matches expectations.
 
+### Methodology
 
+To analyze early-stage engagement, I visualized **monthly average and peak players** during the first year after launch.  
+Two contrasting examples highlight retention dynamics:
 
+- **Cyberpunk 2077** – massive launch with a steep and sudden decline  
+- **Baldur’s Gate 3** – also highly anticipated, but with slower decay and stronger post-launch retention
 
+These comparisons help identify whether a game’s lifecycle depends on pre-release hype or long-term content value — and what product strategies (updates, live service, DLC) can support better retention.
+
+#### Cyberpunk 2077 – First-Year Player Retention After Launch
+
+![Game Lifecycle Dashboard](plots/2077.jpg)
+
+**Key Findings:**
+
+- Explosive launch: over 830K peak players at release
+- Rapid drop-off: engagement fell by ~90% within 2 months
+- Long tail: minor activity stabilizes around 10–20K players
+- Post-launch updates had little effect on reversing decline
+
+**Interpretation:**  
+Cyberpunk’s performance reflects a high-risk, hype-driven model. Strong marketing pushed record-breaking launch numbers, but lack of polish at release led to rapid disengagement. Long-term retention was minimal without substantial structural fixes.
+
+#### Baldur’s Gate 3 – First-Year Player Retention After Launch
+
+![Baldur’s Gate 3 Chart](plots/gate.jpg)
+
+### Key Findings
+
+- Strong launch: 875K peak players at release, with high average playtime
+- Slower decline: steady drop-off but more gradual than Cyberpunk
+- Healthy plateau: by month 6–10, retention stabilizes around 100K–150K peak
+- Post-launch content and word-of-mouth sustained interest
+
+**Interpretation:**  
+Unlike Cyberpunk, Baldur’s Gate 3 shows **strong retention beyond the launch window**. Its quality, content depth, and community support created a smoother lifecycle curve. This suggests high replayability and strong product-market fit — especially in the RPG niche.
+
+#
+
+### Business Summary – Section 2: Behavioral Patterns & Retention
+
+#### Key Patterns
+- **Lifecycle curves vary greatly**: Some games spike and fade fast (*Hogwarts Legacy*, *Cyberpunk 2077*), while others grow or stabilize over time (*The Sims 4*, *Baldur’s Gate 3*, *Stardew Valley*).
+- **First-year retention** is often steep: most games lose the majority of players in the first 3–6 months.
+- **Long-term engagement** is driven by updates, community support, and replayability — not just initial hype.
+
+#### Takeaways for Game Teams
+- **Plan for the drop**: Launch peaks are unreliable — post-launch support and content timing matter more for sustainable retention.
+- **Know your game's arc**: Identify whether your title is front-loaded, steady-growth, or long-tail — and align marketing + dev accordingly.
+- **Retention is a product metric**: Teams should treat lifecycle analysis as early evidence for future revenue and community health.
+----
+
+## Section 3 – Game Features & Player Engagement
+
+### Business Question
+
+**Which game attributes drive higher player engagement — and how do features like price, genre, or tags correlate with retention?**  
+Understanding which characteristics predict strong engagement helps product teams make informed decisions about design, positioning, and monetization.
+
+#
+
+### Genre vs. Retention: Which Game Types Keep Players Longer?
+
+This chart shows the **median playtime (in minutes)** by genre — a more realistic measure of engagement than average time, which can be skewed by a few “whale” users.
+
+![Baldur’s Gate 3 Chart](plots/playtime_genre.jpg)
+
+#### Key Findings
+
+- **Sports games** dominate retention with a median playtime of over **3,200 minutes**, suggesting strong ongoing engagement, possibly due to competitive or replayable content.
+- **Simulation** titles also perform well (**1,300+ minutes median**), indicating deep, immersive mechanics.
+- Genres like **RPG, Adventure, and Strategy** hold steady with **~600–800 minutes**.
+- **Multiplayer, Casual, and Indie** games show **lower typical engagement** (under 550 minutes), despite possibly strong performance in other areas (e.g., satisfaction or breadth).
+
+### Price vs. Retention: Do Players Engage More With Expensive Games?
+
+This chart compares **median playtime** across different price categories — from free-to-play to premium titles.
+
+![Baldur’s Gate 3 Chart](plots/playtime_price.jpg)
+
+#### Key Findings
+
+- Games priced **$30+** have the **highest median playtime** (~1,400 minutes), suggesting that **premium buyers are more committed**.
+- Mid-priced games ($10–29.99) also perform well (**650 minutes median**), offering a solid balance of price and engagement.
+- Surprisingly, **Free-to-Play** games outperform the lowest paid tier, with **~586 minutes**, vs. ~533 for the $0.01–9.99 range.
+- Ultra-cheap games likely suffer from low perceived value or shallow gameplay loops.
+
+### Do Positive Reviews Correlate With Retention?
+
+This scatterplot explores the relationship between **positive user reviews (%)** and **median playtime** across all games in the dataset.
+
+![Baldur’s Gate 3 Chart](plots/retention.jpg)
+
+#### Key Findings
+
+- There’s a **visible upward trend**: games with better reviews generally see longer median playtime.
+- Games below **60–70% positive reviews** almost never retain players long — **short engagement dominates**.
+- **Outliers with 20%+ reviews** show sustained playtime of **2000–5000 minutes**, often associated with highly polished or community-supported games.
+- A **baseline median** (around 700 minutes) divides weak from solid retention.
+
+### Business Summary – Section 3: What Drives Player Retention?
+
+#### Key Patterns
+- **Sports and Simulation** games lead median playtime, suggesting deep, repeatable engagement.
+- **High-priced games ($30+)** drive longer sessions, likely due to better quality, polish, or content depth.
+- **Positive reviews strongly correlate** with higher retention — games with 85–95%+ positivity retain players far longer.
+
+#### Takeaways for Game Teams
+- **Retention starts with quality**: Invest in polish, UX, and stability to increase playtime and positive sentiment.
+- **Monetization and design go hand-in-hand**: Premium games show stronger retention — but expectations are higher too.
+- **Watch your reviews**: They aren’t just vanity metrics — they’re predictors of engagement and long-term ROI.
+
+---
 
 

@@ -366,4 +366,5 @@ This scatterplot explores the relationship between **positive user reviews (%)**
 
 ---
 
+## Section 4 – Game Lifecycle & Market Segmentation
 

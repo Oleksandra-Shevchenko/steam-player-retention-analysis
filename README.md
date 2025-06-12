@@ -146,25 +146,103 @@ Looking at both helps understand how many players really stay active — and how
 
 ### Business Summary – Section 1: Market & Lifecycle Insights
 
-### Key Patterns
+#### Key Patterns
 - **Action games** flood the market, but fight for attention.
 - **MMOs** show massive success per title, but with fewer releases.
 - **Simulation and Indie** games lead in player satisfaction (85–87%+).
 - Playtime data shows a strong **“whale effect”** — most players engage briefly, while a few skew the averages.
 
-### Takeaways for Game Teams
+#### Takeaways for Game Teams
 - **Genre choice defines your strategy**: High-volume genres need standout content and marketing; niche genres benefit from deeper retention design.
 - **Don’t trust the average** — median playtime is more realistic for measuring real engagement.
 - **Player expectations differ**: Competitive games need support and balance; slower-paced genres need polish and long-term hooks.
 
 ---
 
+## Section 2 – Behavioral Patterns: Lifecycle Case Studies
+
+### Business Question
+
+**How do different types of games retain players over time — and what engagement patterns can guide post-launch decisions?**  
+Understanding lifecycle curves helps studios plan updates, allocate marketing budgets, and set realistic expectations for player retention.
+
+### Methodology
+
+I selected 4 games with different behavioral profiles:
+- **The Sims 4** – a classic example of long-term, stable player retention
+- **Hogwarts Legacy** – a highly hyped single-player release with a sharp post-launch drop
+- **No Man's Sky** – a rare case of revival through continuous updates after a weak start
+- **Stardew Valley** – a slow-burning indie success with organic, sustained growth
+
+Each game is shown with a line chart of monthly player counts (SteamCharts), annotated with major releases or updates where relevant.
+
+#
+
+### Hogwarts Legacy – Hype Spike & Sharp Decline
+
+![Game Lifecycle Dashboard](plots/hogwards.jpg)
+
+*Pattern:* Massive launch spike → rapid drop-off → flat long tail
+
+*What we see:*  
+Hogwarts Legacy launched in February 2023 with extremely high engagement (over 500K peak players).  
+However, within 2 months, player activity dropped by ~90% and remained consistently low in the following year.
+
+*Possible explanation:*  
+This was a highly anticipated, single-player game with limited replay value and no major content updates post-launch. Once players completed the main story, few reasons remained to return.
+
+> **Takeaway:**    
+Even massive hype can’t guarantee long-term retention — without post-launch content or community hooks, player interest fades quickly.
+
+### No Man’s Sky – Revival Through Updates
+
+![Game Lifecycle Dashboard](plots/no_mans_sky.jpg)
 
 
+*Pattern:* Initial collapse → slow comeback → long-term growth through updates
 
+*What we see:*  
+After a disappointing launch in 2016, player numbers fell sharply in 2017.  
+However, from 2018 onward, we see a steady rise in both average and peak players — driven by a continuous stream of major updates and improvements.
 
+*Possible explanation:*  
+The developers committed to rebuilding the game post-launch with free expansions, feature reworks, and strong communication — eventually rebuilding player trust and engagement.
 
+> **Takeaway:**  
+A weak launch doesn’t mean failure — long-term player retention is possible through consistent updates and community care.
 
+### The Sims 4 – Long-Term Growth & Steady Engagement
+
+![Game Lifecycle Dashboard](plots/sims.jpg)
+
+*Pattern:* Consistent year-over-year growth with strong retention
+
+*What we see:*  
+Since 2020, The Sims 4 has shown stable growth in both average and peak players.  
+Engagement increases each year, with no major dips — a rare example of a long-running title gaining momentum over time.
+
+*Possible explanation:*  
+Frequent content packs, seasonal events, strong community support, and modding culture keep players coming back. The game's open-ended nature supports long-term play.
+
+> **Takeaway:**  
+Steady growth is possible when games are built for longevity — with regular updates and systems that support ongoing engagement.
+
+### Stardew Valley – Organic Growth & Community-Driven Longevity
+
+![Game Lifecycle Dashboard](plots/valley.jpg)
+
+*Pattern:* Gradual long-term growth → major resurgence post-2023
+
+*What we see:*  
+After a modest launch in 2015, Stardew Valley steadily gained players over time.  
+A massive spike in 2023–2024 suggests renewed interest — possibly due to major updates, platform expansions, or social buzz.
+
+*Possible explanation:*  
+The game’s relaxing gameplay, strong word of mouth, active modding scene, and continued developer support built a loyal player base.  
+Viral moments and re-releases helped reintroduce the game to new audiences.
+
+> **Takeaway:**  
+Games don’t need explosive launches to succeed — slow, steady growth powered by community and ongoing updates can lead to long-term success.
 
 
 

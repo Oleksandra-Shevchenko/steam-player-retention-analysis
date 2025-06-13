@@ -376,23 +376,6 @@ Early Access lets studios launch faster and gather feedback — but does it help
 
 #
 
-### Hypotheses
-
-This A/B test is guided by several product-driven hypotheses:
-
-1. **Steady Audience Hypothesis**  
-   Games that go through Early Access may build **more stable long-term audiences** — as players are used to gradual updates and iteration.
-
-2. **Community-Polished Hypothesis**  
-   Early Access titles may receive **higher long-term review scores**, as player feedback helps polish the product before full release.
-
-3. **Engagement Spikes Hypothesis**  
-   Early Access games may show **periodic spikes in activity** during major patches or the official 1.0 launch — keeping engagement alive longer.
-
-4. **Hype vs. Drop Hypothesis**  
-   Fully released games may experience **a stronger initial launch peak**, but are at risk of **faster drop-off** if they lack ongoing content updates.
-
-
 ### Methodology
 
 To test this, I ran a simplified A/B test:
@@ -406,3 +389,104 @@ To test this, I ran a simplified A/B test:
 
 This approach enables a focused comparison of real-world player behavior between two common release strategies.
 
+#### 1. Total Owners by Release Type
+
+**Hypothesis:**  
+Games launched directly into **Full Release** will have a higher total number of owners compared to games that went through **Early Access**, due to broader marketing campaigns and a more polished initial product attracting a larger initial audience.
+
+![Total Owners](plots/ab_test_owners.jpg)
+
+**Key Observations:**
+- Games launched directly into Full Release account for a significantly larger portion of total owners (**~1.75 Billion**).
+- Games that started with Early Access have a substantial, but smaller, total owner base (**~0.75 Billion**).
+
+**Conclusion:**  
+The data **supports the hypothesis**. Full Release titles collectively attract a **much larger overall player base**. This could be attributed to traditional marketing cycles and the broader appeal of a finished product at launch, whereas Early Access titles typically build their audience more incrementally, often starting with a smaller, dedicated community.
+
+#### 2. Early Access vs Full Release – Average User Review Score
+
+**Hypothesis:**  
+Games that go through **Early Access** will have a **lower average user review score** compared to **Full Release** titles. This is based on the expectation that Early Access games are inherently unfinished, leading to more critical reviews.
+
+![Average Reviews](plots/ab_test_userscore.jpg)
+
+**Key Observations:**
+- Full Release games show a **slightly higher average user review score** (around **0.82**).
+- Early Access games have a **marginally lower score** (around **0.79**).
+- The difference between the two groups is **relatively small**.
+
+**Conclusion:**  
+The data **supports the hypothesis** — Full Release games tend to have slightly better review scores, likely due to being more polished at launch. However, the **small gap suggests that Early Access doesn't significantly harm player sentiment**. Many players seem to understand the unfinished nature of Early Access and rate accordingly, especially when games show consistent improvement and communication.
+
+#### 3. Early Access vs Full Release – Median Player Retention
+
+**Hypothesis:**  
+Games that undergo **Early Access** will have **higher median player retention**, as their audiences are more invested and accustomed to ongoing development.
+
+![Median Retention](plots/ab_test_median.jpg)
+
+**Key Observations:**
+- **Full Release** games show **higher median playtime** (≈ **1700 minutes**).
+- **Early Access** games show **lower median playtime** (≈ **500 minutes**).
+
+**Conclusion:**  
+The data **contradicts the hypothesis**. Full Release games retain players longer on average. This may reflect:
+- **Higher initial polish and content** in full releases
+- **Stronger commitment** from players expecting a complete experience
+- **Shorter, update-driven sessions** in Early Access titles lowering the median
+
+#
+
+### Business Summary – Section 4: The Impact of Early Access on Retention
+
+Our comparative analysis of **Early Access** vs. **Full Release** games revealed clear differences in player reach, perception, and long-term engagement.
+
+#### Audience Reach
+- **Full Release** titles reach a **much larger total audience**.
+- This suggests that polished, fully launched games — often backed by stronger marketing — attract broader player bases from the start.
+
+#### Perceived Quality
+- **Early Access** games show **slightly lower average review scores**, but the difference is minor.
+- This indicates that players generally **understand the unfinished nature** of Early Access and can still rate a title positively if it's well-managed.
+
+#### Long-Term Retention (Median Playtime)
+- Surprisingly, **Full Release** games show **significantly higher median playtime**.
+- This contradicts the idea that Early Access fosters longer engagement.
+- Possible reasons include:
+  - **More content** and a polished experience at launch
+  - **One-time full playthroughs** being longer than sporadic Early Access sessions
+
+#### Key Takeaway
+While **Early Access** can help build community and gather feedback, it does **not automatically lead to higher long-term retention**. 
+
+Studios should weigh the **initial reach of a full launch** against the **gradual growth of Early Access**, keeping in mind that both models demand consistent quality and player alignment.
+
+## Final Summary – What Makes Players Stay?
+
+This project explored player behavior across 1,000 Steam games to uncover what drives **retention, satisfaction, and long-term success** in the PC game market.
+
+### What I Learned
+
+- **Market dynamics shape expectations**: Action games dominate in volume, but MMOs lead in per-game success. Indie and Simulation genres top satisfaction charts.
+- **Lifecycle patterns matter**: Some games burn bright and fade (e.g. Hogwarts Legacy), while others thrive through slow growth or revival (e.g. Stardew Valley, No Man’s Sky).
+- **Player engagement is uneven**: Median playtime is a better metric than averages due to the “whale effect” — a few players skew the numbers.
+- **Tag-level and price insights**: Tags and pricing tiers reveal strong correlations with engagement — high-priced titles show strong retention, certain genres attract longer sessions.
+- **A/B test results** challenge assumptions: Early Access doesn’t guarantee higher retention, and full releases tend to drive stronger sustained playtime.
+
+### Strategic Takeaways for Game Teams
+
+- **Choose your genre wisely**: Volume-heavy genres require standout content and strong marketing. Niche genres rely on depth and community.
+- **Track the right metrics**: Use **median playtime** for realistic engagement estimates and **ownership scale** to gauge reach.
+- **Early Access is not a silver bullet**: It builds community but needs long-term support to match the retention of full releases.
+
+### Next Steps & Extensions
+
+This project can evolve in several directions:
+
+- **Retention cohorts by release month or year**
+- **Event-based analysis**: Do discounts, patches, or DLC spikes actually improve engagement?
+- **Monetization analysis**: How does free-to-play vs. premium pricing affect long-term play?
+- **Player sentiment NLP**: Deeper analysis of reviews to detect pain points or love signals
+- **Success forecasting** using features like price, genre, tags, and EA status
+
+---

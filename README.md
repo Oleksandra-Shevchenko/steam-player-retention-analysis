@@ -3,6 +3,33 @@
 
 </br>
 
+## Table of Contents
+
+1. [Project Overview](#Project Overview)
+2. [Tools & Dataset](#tools--dataset)
+3. [Section 1 – Game Lifecycle & Market Segmentation](#section-1--game-lifecycle--market-segmentation)
+   - [Market Landscape: Genre Distribution](#market-landscape-genre-distribution)
+   - [Distribution of Games by Price](#distribution-of-games-by-price)
+   - [Game Ownership by Genre](#game-ownership-by-genre-average-vs-total-market-share)
+   - [Player Satisfaction by Genre](#player-satisfaction-analysis-positive-review-rates-by-genre)
+   - [Engagement Patterns: Playtime by Genre](#player-engagement-patterns-average-vs-median-playtime-by-genre)
+   - [Business Summary – Section 1](#business-summary--section-1-market--lifecycle-insights)
+4. [Section 2 – Behavioral Patterns: Lifecycle Case Studies](#section-2--behavioral-patterns-lifecycle-case-studies)
+   - [Lifecycle Graphs (The Sims, Hogwarts, etc.)](#hogwarts-legacy--hype-spike--sharp-decline)
+   - [First-Year Retention: Cyberpunk vs Baldur’s Gate](#business-question-2-first-year-retention-after-release)
+   - [Business Summary – Section 2](#business-summary--section-2-behavioral-patterns--retention)
+5. [Section 3 – Game Features & Player Engagement](#section-3--game-features--player-engagement)
+   - [Genre vs Retention](#genre-vs-retention-which-game-types-keep-players-longer)
+   - [Price vs Retention](#price-vs-retention-do-players-engage-more-with-expensive-games)
+   - [Reviews vs Retention](#do-positive-reviews-correlate-with-retention)
+   - [Business Summary – Section 3](#business-summary--section-3-what-drives-player-retention)
+6. [Section 4 – A/B Test: Early Access vs Full Release](#section-4--ab-test-the-effect-of-early-access-on-player-retention)
+   - [Total Owners Comparison](#1-total-owners-by-release-type)
+   - [User Review Scores Comparison](#2-early-access-vs-full-release--average-user-review-score)
+   - [Player Retention Comparison](#3-early-access-vs-full-release--median-player-retention)
+   - [Business Summary – Section 4](#business-summary--section-4-the-impact-of-early-access-on-retention)
+7. [Final Summary – What Makes Players Stay](#final-summary--what-makes-players-stay)
+
 ## Project Overview
 
 This is a **personal data analysis project** where I explored **what makes players stay or leave** across **1,000 games on the Steam platform**.

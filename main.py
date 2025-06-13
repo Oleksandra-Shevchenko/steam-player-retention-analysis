@@ -28,4 +28,4 @@ for appid in tqdm(app_ids):
     time.sleep(DELAY_SECONDS)
 
 df = pd.DataFrame(all_games)
-df.to_csv("steamspy_full_dataset.csv", index=False, encoding="utf-8-sig")
+df.to_csv("steamspy_dataset.csv", index=False, encoding="utf-8-sig")

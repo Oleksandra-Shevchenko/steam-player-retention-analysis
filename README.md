@@ -1,4 +1,5 @@
 # What Makes a Game Successful on Steam? Insights from 1000 Games
+![Game Lifecycle Dashboard](plots/steam.jpg)
 
 </br>
 

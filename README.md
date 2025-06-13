@@ -5,7 +5,7 @@
 
 ## Table of Contents
 
-1. [Project Overview](#Project Overview)
+1. [Project Overview](#project-overview)
 2. [Tools & Dataset](#tools--dataset)
 3. [Section 1 – Game Lifecycle & Market Segmentation](#section-1--game-lifecycle--market-segmentation)
    - [Market Landscape: Genre Distribution](#market-landscape-genre-distribution)
